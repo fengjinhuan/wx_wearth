@@ -1,0 +1,99 @@
+/**index.wxss**/
+.wenzi{
+    text-align: center;
+	font-family:"微软雅黑";
+	font-size:26px;
+	position:relative;
+	margin-top: 40rpx;
+	color: #fff;
+}
+.bj{
+	width:780rpx; 
+	height:1100rpx; 
+}
+page{
+	background-image: url(../../images/bj.jpg);
+	height: 100%;width: 100%;
+	background-size: cover;
+}
+.icon{
+	width:170rpx;
+	height:120rpx;
+	margin-left:40%;
+	margin-top:50rpx;
+}
+.wenzi1{
+	text-align:center;
+	font-family:"微软雅黑";
+	position:relative;
+	height:60rpx;
+	color:#fff;
+	font-size:30px;
+}
+.xh{
+	height:80rpx;
+	width:80rpx;
+	background-size:cover;
+	margin-top:10%;
+	
+
+}
+.xh1{
+	height:60rpx;
+	width:60rpx;
+	background-size:cover;
+	margin-top:10%;
+
+}
+.xhbox{
+	display:inline-block;
+	margin-left:4%;
+	font-weight: bold;
+}
+.xhbox1{
+	display:inline-block;
+	margin-left:5%;
+	font-size:10px;
+}
+.box{
+	margin-top:10%;
+	color: #fff;
+    text-align: center;
+}
+.box1{
+	margin-top:10%;
+	opacity:1;
+	color: #fff;
+	height:100rpx;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 5%;
+	line-height: 100rpx;
+	width: 85%;
+	margin-left: 5%;
+
+}
+.sj{
+	font-size:14px;
+	margin-top:10%;
+	color: #fff;
+}
+.dh{
+	width: 100%;
+	height: 120rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	z-index: 99999;
+}
+.dh view{
+	width: 30%;
+	height: 120rpx;
+	color:#fff;
+	float: left;
+	line-height: 120rpx;
+	text-align: center;
+	margin-left: 2%;
+	font-weight: bold;
+}

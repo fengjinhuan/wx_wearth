@@ -1,0 +1,10 @@
+
+page{
+	background-image: url(../../images/bj.jpg);
+	height: 100%;width: 100%;
+	background-size: cover;
+}
+.shuru{
+background: #fff;
+padding: 40rpx;
+}

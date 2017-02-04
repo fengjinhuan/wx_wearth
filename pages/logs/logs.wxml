@@ -1,0 +1,46 @@
+
+<view class="top">
+	<view>
+		城市:<text>{{basic.city}}</text>
+	</view>
+	<view>
+		更新时间:<text>{{basic.update.loc}}</text>
+	</view>
+</view>
+<template name="msgItem">		
+	<view class="box">	
+		<view>
+			<view>
+				日出:<text>{{astro.sr}}</text>
+			</view>
+			<view>
+				日落:<text>{{astro.ss}}</text>
+			</view>
+		</view>
+		<view>
+			<view>
+				白天:<text>{{cond.txt_d}}</text>
+				<image src="http://files.heweather.com/cond_icon/{{cond.code_d}}.png" style="width:60rpx;height:60rpx;"/>
+			</view>
+			<view>
+				黑夜:<text>{{cond.txt_n}}</text>
+				<image src="http://files.heweather.com/cond_icon/{{cond.code_n}}.png" 
+				style="width:60rpx;height:60rpx;"/>
+			</view>
+		</view>
+		<view>
+			<view>
+				相对湿度:<text>{{hum}}</text>
+			</view>
+		</view>
+		<view>
+			<view>
+				最高温度:<text>{{tmp.max}}</text>
+			</view>
+			<view>
+				最低温度:<text>{{tmp.min}}</text>
+			</view>
+		</view>
+	</view>
+</template>
+<template is="msgItem" wx:for="{{daily}}" data="{{...item}}"/>

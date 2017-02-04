@@ -1,0 +1,74 @@
+
+<view class="boxtop">
+	<view>
+		城市:<text>{{basic.city}}</text>
+	</view>
+	<view>
+		更新时间:<text>{{basic.update.loc}}</text>
+	</view>
+</view>	
+	<view class="box">	
+		<view class="item">
+			<view>舒适度指数</view>
+			<view>
+				简介:<text>{{daily.comf.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.comf.txt}}</text>
+			</view>
+		</view>
+		<view class="item">
+			<view>洗车指数</view>
+			<view>
+				简介:<text>{{daily.cw.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.cw.txt}}</text>
+			</view>
+		</view>
+		<view class="item">
+			<view>穿衣指数</view>
+			<view>
+				简介:<text>{{daily.drsg.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.drsg.txt}}</text>
+			</view>
+		</view>
+		<view class="item">
+			<view>感冒指数</view>
+			<view>
+				简介:<text>{{daily.flu.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.flu.txt}}</text>
+			</view>
+		</view>
+		<view class="item">
+			<view>运动指数</view>
+			<view>
+				简介:<text>{{daily.sport.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.sport.txt}}</text>
+			</view>
+		</view>
+		<view class="item">
+			<view>旅游指数</view>
+			<view>
+				简介:<text>{{daily.trav.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.trav.txt}}</text>
+			</view>
+		</view>
+		<view class="item">
+			<view>紫外线指数</view>
+			<view>
+				简介:<text>{{daily.uv.brf}}</text>
+			</view>
+			<view>
+				详细描述:<text>{{daily.uv.txt}}</text>
+			</view>
+		</view>
+	</view>

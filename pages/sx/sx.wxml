@@ -1,0 +1,4 @@
+<view  class="shuru">
+    <input bindblur="change1" placeholder="请输入城市"/>
+</view>
+<button size="mini" wx:for="{{arr}}" wx:key="{{index}}" bindtap="change" id="{{item}}">{{item}}</button>

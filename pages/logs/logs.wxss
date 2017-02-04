@@ -1,0 +1,29 @@
+.box{
+	font-size:14px;
+	float:left;
+	margin-top:20%;
+	margin-left:5%;
+}
+page{
+	background-image: url(../../images/bj.jpg);
+	height: 100%;width: 100%;
+	background-size: cover;
+	color: #fff;
+}
+.top{
+	margin-top: 20%;
+	font-weight: bold;
+	margin-left: 6%;
+}
+view{
+	margin-top:5%;
+}
+.dh{
+	width: 100%;
+	height: 130rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	z-index: 99999;
+}

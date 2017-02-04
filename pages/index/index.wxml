@@ -1,0 +1,21 @@
+<!--index.wxml-->
+	 <view class="wenzi" bindtap="tz">{{basic.city}}</view>
+
+ 
+ <view class="box">
+    {{daily.tmp}}度
+ </view>
+ <view class="box" style="height:300rpx;line-height:100rpx">
+     <view class="xhbox">体感温度:{{daily.fl}}</view>
+     <view class="xhbox">相对湿度:{{daily.hum}}</view>
+     <view class="xhbox">降水量:{{daily.pcpn}}</view>
+     <view class="xhbox">气压:{{daily.pres}}</view>
+     <!--<view class="xhbox">温度:{{daily.tmp}}</view>-->
+     <view class="xhbox">能见度:{{daily.vis}}</view>
+ </view>
+ <view class="wenzi1" style="margin-top:80rpx">{{daily.cond.txt}}</view>
+<view class="dh">
+    <navigator url="../index/index?id={{city}}"><view>今日天气</view></navigator>
+    <navigator url="../logs/logs?id={{city}}"><view>未来三日</view></navigator>
+    <navigator url="../sh/sh?id={{city}}"><view>生活指南</view></navigator>
+</view>

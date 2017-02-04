@@ -1,0 +1,19 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/sh/sh",
+    "pages/sx/sx"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText":"天气预报",
+    "navigationBarTextStyle":"white",
+    "backgroundTextStyle":"dark",
+    "backgroundColor":"blue",
+    "enablePullDownRefresh":"true"
+  }
+}
+
